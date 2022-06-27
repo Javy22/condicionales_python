@@ -32,3 +32,30 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+
+#1
+if texto_1 > texto_2:
+    print(texto_1, ' es mayor a ', texto_2, ' alfabeticamente')
+else:
+    print(texto_2, ' es mayor a ', texto_1, ' alfabeticamente')
+
+# 2
+palabra_1 = int(texto_1)
+palabra_2 = int(texto_2)
+if palabra_1 > palabra_2:
+    print(palabra_1, ' es mayor a ', palabra_2, 'numéricamente')
+else:
+    print(palabra_2, ' es mayor a ', palabra_1, 'numéricamente')
+
+# Para pensar!
+# ¿Por qué cree que texto_2 es mayor a texto_1?
+# Siendo números tiene sentido, pero son caracteres, texto,
+# aún así el operador arroja el mismo resultado que con las
+# variables numéricas, cierto? ¿Por qué creen que es así?
+# Esta pregunta estará repetida en el Campus para que puedan
+# responder.
+# NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+
+        

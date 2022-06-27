@@ -35,3 +35,27 @@ puntaje = 70
 
 # Debe imprimir en pantalla la calificacion
 # Utilizar "if" anidados
+
+#1
+if numero_1 > 5:
+    if numero_2 > 0:
+        print('Resp=1')
+    else:
+        print('Resp=2')
+else:
+    if numero_2 > 5:
+        print('Resp=3')
+    else:
+        print('Resp=4')
+
+#2
+if puntaje >= 90:
+    print('A')
+elif puntaje >= 80:
+    print('B')
+elif puntaje >= 70:
+    print('C')
+elif puntaje >= 60:
+    print('D')
+else:
+    print('F')
